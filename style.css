@@ -1,0 +1,83 @@
+/* background-color,
+font-family,
+color,
+font-size
+line-height */
+
+body {
+    background-color: rgb(28, 28, 28);
+    margin: 8px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+li {
+    color: rgb(122, 122, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    list-style: none;
+}
+
+a {
+    color: blueviolet
+}
+
+i {
+    color: rgb(122, 122, 122)
+}
+
+.container {
+    width: 500px;
+    /* This sets the width */
+    margin: 40px auto;
+    /* This automatically sets left/right margins */
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.card {
+    background-color: rgb(41, 41, 41);
+    padding: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.tenor-gif-embed {
+    /* float: right; */
+    display: inline-block;
+    vertical-align: middle;
+}
