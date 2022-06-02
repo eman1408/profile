@@ -16,20 +16,23 @@ h1 {
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(100, 100, 100);
+    font-size: medium;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
+    font-size: medium;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.787);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 550
 }
 
 li {
@@ -47,7 +50,7 @@ a {
 }
 
 i {
-    color: rgb(122, 122, 122)
+    color: rgb(131, 131, 131)
 }
 
 .container {
@@ -93,4 +96,15 @@ i {
     padding: 15px 20px;
     border-radius: 20px;
     cursor: grab;
+}
+
+.btn-social {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.btn-social:hover {
+    background-color: #72048dbe;
+    padding: 10px;
+    border-radius: 50%;
 }
